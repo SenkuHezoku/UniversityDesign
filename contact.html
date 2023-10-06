@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- meta code for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Design</title>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome icon -->
+    <!-- stackpath bootstrap font awesome cdn -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    /> -->
+    <!-- Css Style link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- sub-header section -->
+    <section class="sub-header">
+      <!-- navbar section -->
+      <nav>
+        <!-- logo of navbar -->
+        <a href="#index.html"><img src="images/logo.png" /></a>
+        <!-- main navbar -->
+        <div class="nav-links" id="nav-links">
+          <!-- hide navbar-->
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <!-- navbar items -->
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- show navbar -->
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+    <!-- Location section -->
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.3264693273013!2d96.17125617421297!3d16.810152619179267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1ecb7d91fd90d%3A0x96c0b50210fdb46b!2s157th%20St%2C%20Yangon!5e0!3m2!1sen!2smm!4v1696613276774!5m2!1sen!2smm"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+    <!-- contact us section -->
+    <section class="contant-us">
+      <div class="row">
+        <div class="contant-col">
+          <div>
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>157 Road, Tamwe</h5>
+              <p>Yangon</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>+959 757 466 266</h5>
+              <p>Sat & Sun, 11Am to 9Pm</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+              <h5>senku9123@gmail.com</h5>
+              <p>Email Us Your Query</p>
+            </span>
+          </div>
+        </div>
+        <div class="contant-col">
+          <form action="">
+            <input type="text" placeholder="Enter Name" id="" required />
+            <input
+              type="email"
+              name=""
+              placeholder="Enter Email"
+              id=""
+              required
+            />
+            <input
+              type="text"
+              name=""
+              placeholder="Enter Your Subjects"
+              id=""
+              required
+            />
+            <textarea
+              name=""
+              id=""
+              rows="8"
+              placeholder="Massage"
+              required
+            ></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Massage</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
+        iusto, soluta sit quibusdam amet explicabo suscipit.
+      </p>
+      <div class="icon">
+        <a href="#">
+          <span><i class="fa-brands fa-square-facebook"></i></span
+        ></a>
+        <a href="#"
+          ><span><i class="fa-brands fa-twitter"></i></span
+        ></a>
+
+        <a href="#">
+          <span><i class="fa-brands fa-instagram"></i></span>
+        </a>
+        <a href="#"
+          ><span><i class="fa-brands fa-linkedin"></i></span
+        ></a>
+      </div>
+      <p class="last">Coursed By Let's Learn Programming</p>
+    </section>
+
+    <!-- font awesome icon with javascript -->
+    <script
+      src="https://kit.fontawesome.com/f2ddfa4057.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Js file link -->
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

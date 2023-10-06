@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- meta code for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Design</title>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome icon -->
+    <!-- stackpath bootstrap font awesome cdn -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    /> -->
+    <!-- Css Style link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- sub-header section -->
+    <section class="sub-header">
+      <!-- navbar section -->
+      <nav>
+        <!-- logo of navbar -->
+        <a href="#index.html"><img src="images/logo.png" /></a>
+        <!-- main navbar -->
+        <div class="nav-links" id="nav-links">
+          <!-- hide navbar-->
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <!-- navbar items -->
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- show navbar -->
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+    <!-- about section -->
+    <section class="about">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the world's largest <br />University</h1>
+          <p>
+            Making a website is now one of the easiest thing in the world. You
+            just need to learn HTML, CSS <br />
+            Javascript and you are good to go.
+          </p>
+          <a href="course.html" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+          <img src="images/about.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
+        iusto, soluta sit quibusdam amet explicabo suscipit.
+      </p>
+      <div class="icon">
+        <a href="#">
+          <span><i class="fa-brands fa-square-facebook"></i></span
+        ></a>
+        <a href="#"
+          ><span><i class="fa-brands fa-twitter"></i></span
+        ></a>
+
+        <a href="#">
+          <span><i class="fa-brands fa-instagram"></i></span>
+        </a>
+        <a href="#"
+          ><span><i class="fa-brands fa-linkedin"></i></span
+        ></a>
+      </div>
+      <p class="last">Coursed By Let's Learn Programming</p>
+    </section>
+
+    <!-- font awesome icon with javascript -->
+    <script
+      src="https://kit.fontawesome.com/f2ddfa4057.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Js file link -->
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
